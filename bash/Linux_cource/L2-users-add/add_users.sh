@@ -1,6 +1,9 @@
 #! /bin/bash
-my_users="./users.txt"
-my_groups="./u_groups.txt"
+##my_users="./users.txt"
+##my_groups="./u_groups.txt"
+
+my_users=$1
+my_groups=$2
 c_groups="./create_groups.sh"
 
 $c_groups
